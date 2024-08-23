@@ -1,0 +1,20 @@
+img {
+  width: clamp(200px, 100%, 250px);
+  border-radius: 5px;
+}
+
+.card {
+  width: clamp(250px, 25%, 500px);
+  margin: auto;
+}
+
+.modal-title {
+  text-align: center;
+  width: 100%;
+}
+
+.col-md-4:hover {
+  transform: scale(1.01);
+  transition: transform 0.2s ease-in-out;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}/*# sourceMappingURL=main.css.map */
